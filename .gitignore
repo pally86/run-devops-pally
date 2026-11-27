@@ -1,0 +1,21 @@
+# Build output
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+**/.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+**/secrets.json
+
+# Publish output
+**/publish/
+**/artifacts/
